@@ -19,6 +19,8 @@ export function sequence (f) {
     let sequenceNum = [0,1];
 for ( let i = 0; i < f; i++) {
     sequenceNum.push(sequenceNum[i] + sequenceNum[i + 1])
+    console.log(sequenceNum[i])
     return sequenceNum[i]
 }
 }
+
