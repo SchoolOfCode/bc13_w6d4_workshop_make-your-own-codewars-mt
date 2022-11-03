@@ -6,7 +6,7 @@ import { test, expect } from "@jest/globals";
 import { sequence } from "./main.js";
 
 test("Testing Fibonacci 17", () => {
-  const actual = sequence(num);
+  const actual = sequence(17);
   const expected = 1597;
 
   expect(actual).toBe(expected);
