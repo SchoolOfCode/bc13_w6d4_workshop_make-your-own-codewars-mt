@@ -8,12 +8,19 @@ import { sequence } from "./main.js";
 test("Testing Fibonacci 17", () => {
   const actual = sequence(17);
   const expected = 1597;
-
   expect(actual).toBe(expected);
 });
 
+  test("Testing Fibonacci 8", () => {
+    const actual = sequence(8);
+    const expected = 21;
+  
+    expect(actual).toBe(expected);
+  });
 
-//Test.assertEquals(fib(17), 1597, "Should have returned 1597");
-//Test.assertEquals(fib(20), 6765, "Should have returned 6765");
-//Test.assertEquals(fib(0), 0, "Should have returned 0");
-//Test.assertEquals(fib(4), 3, "Should have returned 3");
+  test("Testing Fibonacci 43", () => {
+    const actual = sequence(43);
+    const expected = 433494437;
+  
+    expect(actual).toBe(expected);
+  });
