@@ -20,7 +20,7 @@ export function sequence (f) {
 for ( let i = 0; i < f; i++) {
     sequenceNum.push(sequenceNum[i] + sequenceNum[i + 1])
     console.log(sequenceNum[i])
-    return sequenceNum[i]
 }
+return sequenceNum[f]
 }
 
